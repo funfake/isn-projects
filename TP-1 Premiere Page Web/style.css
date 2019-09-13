@@ -1,0 +1,41 @@
+/* William BRISA - Premiere Page HTML */
+/* Septembre 2019 */
+/* Feuille de style en cascade */
+html {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    box-sizing: border-box
+}
+
+h1 {
+    text-align: center;
+} 
+
+img {
+    max-width:55%; height:auto;
+}
+
+nav {
+    text-align: center;
+}
+
+article {
+    width: 45%;
+    float: left;
+    margin: 2em;
+}
+
+td {
+    padding: 0.7em 1em 0.7em 0.7em;
+    text-align: center;
+}
+
+aside {
+    width: 40%;
+    float: left;
+    margin: 2em;
+}
+
+footer {
+    width: 100%;
+    clear: both;
+}       
