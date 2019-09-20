@@ -1,11 +1,30 @@
 /* William BRISA - Premiere Page HTML */
 /* Septembre 2019 */
 /* Feuille de style en cascade */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/* MAIN */
 html {
-    font-family: Tahoma, Verdana, Geneva, sans-serif;
-    box-sizing: border-box
+    font-family: Lato, Tahoma, Verdana, Geneva, sans-serif;
 }
 
+body {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+img {
+    height:auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+
+
+/* MAIN SECTION */
 h1 {
     text-align: center;
 } 
@@ -14,14 +33,12 @@ h3 {
     text-align: center;
 }
 
-img {
-    max-width:55%; height:auto;
-}
-
 nav {
     text-align: center;
 }
 
+
+/* ARTICLE SECTION */
 article {
     width: 45%;
     float: left;
@@ -39,6 +56,8 @@ aside {
     margin: 2em;
 }
 
+
+/* FOOTER */
 footer {
     width: 100%;
     clear: both;

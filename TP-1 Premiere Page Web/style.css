@@ -1,40 +1,79 @@
 /* William BRISA - Premiere Page HTML */
 /* Septembre 2019 */
 /* Feuille de style en cascade */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/* MAIN */
 html {
-    font-family: Tahoma, Verdana, Geneva, sans-serif;
-    box-sizing: border-box
+    font-family: Lato, Tahoma, Verdana, Geneva, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+img {
+    height:auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+
+
+/* HEADER */
+header {
+    padding-top: 2.5em;
 }
 
 h1 {
     text-align: center;
 } 
 
-img {
-    max-width:55%; height:auto;
-}
-
 nav {
     text-align: center;
 }
 
+
+/* ARTICLE SECTION */
 article {
-    width: 45%;
-    float: left;
-    margin: 2em;
+    margin: 3em;
+    padding: 2em 0 3em 0;
+    display: block;
 }
 
+main article:first-child {
+    height: 500px;
+}
+
+article > section {
+    margin-right: 2em;
+    height: 100%; 
+    width: 55%;
+    float: left;
+}
+
+article img {
+    max-width:25%;
+    margin-top: 4em;
+}
+
+/* ARTICLE - TABLE */
 td {
     padding: 0.7em 1em 0.7em 0.7em;
     text-align: center;
 }
 
-aside {
-    width: 40%;
-    float: left;
-    margin: 2em;
+th {
+    border: 2px solid #999;
+    padding: 0.5rem;
 }
 
+
+/* FOOTER */
 footer {
     margin: 2em;
     clear: both;
